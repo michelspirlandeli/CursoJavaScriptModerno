@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ex002</title>
+    <style>
+        body{
+            background-color: rgb(185, 105 , 173);
+            color:white;
+            font: normal 20pt Arial;
+        }
+        h1{
+            color: rgb(255, 212, 18);
+        }
+    </style>
+</head>
+<body>
+    <h1>Ola, Mundo!</h1>
+    <p>Já me livrei da maldição</p>
+    <script>
+        var n1 = Number.parseInt(window.prompt('Digite um número: '));
+        var n2 = Number.parseInt(window.prompt('Digite outro número: '));
+        var s = n1 + n2;//adição
+        window.alert('A soma dos valores é: ' + s);//concatenação
+        // (number + number)para adição
+        // (string + string)para concatenação
+
+        //converção de string > número
+
+        // Number.parseInt(n) para inteiro
+        // Number.parseFloat(n) para real
+        // EcmaScript Number(n)
+
+        //converção de número > String
+        
+        //String(n)
+        //n.toString()
+
+        //Formatando String
+        var s = 'javaScript';
+        'Eu estou aprendendo s'; // está errado não faz interpolação
+        'Eu estou aprendendo' + s; //usa concatenação
+        //EcmaScript tem o template String
+        `Eu estou aprendendo ${s}`// usa template string
+        // s.length quantos caracteres a string tem
+        //s.toUpperCase() tudo 'MAIÚSCULAS'
+        //s.toLowerCase() tudo para 'minuscula'
+    </script>
+</body>
+</html>
